@@ -1,0 +1,29 @@
+{
+    "name": "Etherscan Search",
+    "description": "Search by Adress / Txn Hash / Block / Token / Ens on Etherscan.io",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "/images/icon_16.png",
+            "32": "/images/icon_32.png",
+            "48": "/images/icon_48.png",
+            "128": "/images/icon_128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/icon_16.png",
+        "32": "/images/icon_32.png",
+        "48": "/images/icon_48.png",
+        "128": "/images/icon_128.png"
+    }
+}
